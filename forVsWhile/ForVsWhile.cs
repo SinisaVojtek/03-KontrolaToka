@@ -6,7 +6,7 @@ namespace Vsite.CSharp
     {
         public static void PetljaFor(int n)
         {
-            for (int i = 0; i < n; ++i)
+            for (int i = 0; i <= n; ++i)
                 Console.WriteLine(i);
         }
 
